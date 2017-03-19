@@ -11,5 +11,4 @@ void main()
        {  r*=i;  }
        printf("%d",r);
     }
-    
 }

@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
- char a[10],r[10];
+	 char a[10],r[10];
 	  char b;
   int i,k=0;
   scanf("%s",a);
@@ -11,14 +11,16 @@ void main()
             b=a[i];
        else if(i==1)
        {
-           r[k]=a[1];
+           r[k]=a[i];
            k++;
            r[k]=b;
+           k++;
        }
        else
          {  r[k]=a[i];
             k++;
             r[k]=b;
+            k++;
          }
    }  
    printf("%s",r);
